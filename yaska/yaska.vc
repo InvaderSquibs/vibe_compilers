@@ -44,9 +44,5 @@ VC_Table: {
     "<vibe compiler>": {
         "location": "<github url to .vc>"
         "description": <pulled from the description from the location>,
-    },
-    "Yaska": {
-        "description": "Helps users build emotionally resonant coding personas that feel like supportive, long-standing friends.",
-        "location": "<github url to Yaska.vc>"
     }
 }
