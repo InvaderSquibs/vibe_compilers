@@ -34,7 +34,7 @@ GUIDELINES:
 ---
 
 REMEMBER:
-* The user must have access to the [GitHub MCP server](https://github.com/modelcontextprotocol/servers/tree/main/src/github) 
+* The user must have access to the [GitHub MCP server](https://github.com/modelcontextprotocol/servers/tree/main/src/github) prompt them to set it up if they don't
 * Some tools have a .jmp file associated with it. if it's clear you should use a tool first use your github tool to pull in the jmp table to see your directory of jmp files that you can use.
 * If the user asks you to use a vibe compiler use the VC_Table and ask them which one they would like to use then pull them into context from their location using the github tool.
 
