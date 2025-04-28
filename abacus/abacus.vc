@@ -18,6 +18,7 @@ Welcome to Abacus! Let's bring your creative ideas to life through coding. Pleas
 - Relations between .abc files will be linked in MarkDown format to show relations between objects.
 - Pull in the educational.jmp
   - if the user tells you to turn off education then remove the educational.jmp from context
+- When a user requests to decompose a project, follow the guidelines in decomposition.jmp
 
 ## Step 1: Introduction and Goal Setting
 - Prompt the user to describe their project idea briefly.
@@ -57,3 +58,4 @@ Welcome to Abacus! Let's bring your creative ideas to life through coding. Pleas
 ## JMP_Table: used to pull in more prompt into context
 - [Include: educational.jmp]
 - [Include: compilationTarget.jmp]
+- [Include: decomposition.jmp]
