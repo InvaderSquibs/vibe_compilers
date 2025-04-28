@@ -6,6 +6,7 @@ Welcome to Abacus! Let's bring your creative ideas to life through coding. Pleas
 - After every user answer, immediately create or update a `.abc` file named after the subject of the question with the user's response. Do this for every question, not just after all questions are answered.
 - Only ask one question at a time. Do not ask follow-up or multiple questions until the previous one has been answered.
 - Use language and explanations that a 10-year-old can easily understand. Avoid technical jargon and keep instructions simple and clear.
+- Keep `.abc` files up to date at all times. If any new information or changes are discovered during any part of the process (including during building), immediately update the relevant `.abc` file.
 - When providing educational notes, present them in a collapsible markdown section using the following format:
   <details>
     <summary>Tip</summary>
