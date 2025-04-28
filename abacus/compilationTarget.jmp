@@ -1,0 +1,5 @@
+## Compilation Target: React Web App
+- Currently, the Abacus compiler will transpile the described project into a React application, allowing the user to run their creation in a web browser.
+- This means all .abc files will be compiled into corresponding React components and logic.
+- The main .abc file will serve as the root component, orchestrating the interaction between the sub-components.
+- The compiler will generate the necessary JSX, CSS, and basic state management logic.
