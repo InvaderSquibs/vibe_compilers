@@ -10,5 +10,5 @@
   - Do not update .abc files for potential changes that haven't been approved by the user
 - The compiler will transpile all .abc files from the blueprints folder into corresponding React components and logic.
 - The main .abc file will serve as the root component, orchestrating the interaction between the sub-components.
-- The compiler will generate the necessary JSX, CSS, and basic state management logic.
-- After each component is built, verify that its implementation matches its .abc file description. If there are any differences or additional details discovered during implementation, update the .abc file accordingly.
+- The compiler will generate the necessary React files and start the game for the user.
+- After each component is built, verify that its implementation matches its .abc file description.
