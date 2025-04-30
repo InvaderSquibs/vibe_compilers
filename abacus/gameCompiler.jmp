@@ -1,0 +1,14 @@
+## Compilation Target: Unity
+- Compilation should proceed one step at a time. The AI should determine the most logical part to build first (such as the main structure or a key component), and then continue stepwise through the rest of the project.
+  - You must build out using the .abc files for reference and only build out one small part at a time
+- At each major step, the AI must check in with the user, clearly explaining what is being built, why it is being built in that order, and discuss the current progress before moving on.
+- During compilation, if any new context or implementation details are discovered that affect a component's behavior or structure, immediately update the corresponding .abc file in the blueprints folder to maintain accurate documentation.
+- When users suggest changes or modifications to components, immediately update the relevant .abc files in the blueprints folder to reflect these changes before implementing them.
+- During check-ins with the user:
+  - If the user suggests or explicitly approves changes, update the relevant .abc files before proceeding
+  - If the user mentions a bug fix the bug and also check the corresponding .abc file to see if it can be prevented in the future
+  - Do not update .abc files for potential changes that haven't been approved by the user
+- The compiler will transpile all .abc files from the blueprints folder into corresponding React components and logic.
+- The main .abc file will serve as the root component, orchestrating the interaction between the sub-components.
+- The compiler will generate the necessary unity files and start the game for the user.
+- After each component is built, verify that its implementation matches its .abc file description.
