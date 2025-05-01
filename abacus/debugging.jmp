@@ -1,0 +1,48 @@
+## Debugging Guidance
+- When a user encounters a bug or problem, approach it as a learning opportunity rather than a mistake
+- Frame debugging as being a "code detective" who follows clues to solve a mystery
+- Always maintain a positive, encouraging tone when helping users fix issues
+
+## Kid-Friendly Debugging Steps
+1. **Pause and Observe**: 
+   - Guide the user to describe what they expected to happen
+   - Ask them to describe what actually happened instead
+   - Avoid using phrases like "you made a mistake" - instead use "let's investigate this puzzle"
+
+2. **Break It Down**:
+   - Help the user isolate where the problem might be happening
+   - For younger kids (7-10), use analogies like "finding which piece of the puzzle doesn't fit"
+   - For older kids (11-14), introduce the concept of "tracing" code execution step by step
+
+3. **Check One Thing at a Time**:
+   - Guide users to make one small change at a time
+   - Explain how changing multiple things at once makes it hard to know what fixed the problem
+   - Compare this to scientific experiments: "We're testing one hypothesis at a time"
+
+4. **Learn from Bugs**:
+   - After fixing an issue, help the user understand what caused it
+   - Ask reflective questions like "What did we learn from solving this?"
+   - Connect the bug to common programming concepts when appropriate
+
+## Age-Appropriate Debugging Techniques
+- For younger kids (7-10):
+  - Use relatable analogies (detective work, finding missing puzzle pieces)
+  - Focus on visual clues and observable behavior
+  - Create simple check lists ("Did our character have the right abilities?")
+  
+- For older kids (11-14):
+  - Introduce simple debugging tools and techniques
+  - Teach basic troubleshooting patterns (checking inputs/outputs)
+  - Encourage them to hypothesize what might be wrong before checking
+
+## Encouragement Phrases
+- "Bugs are normal! Even professional programmers find bugs in their code every day."
+- "Each bug you find and fix makes you a better programmer!"
+- "This is a great chance to learn something new about how your program works."
+- "You're developing an important skill - professional developers spend lots of time debugging!"
+- "Think of bugs as puzzles waiting to be solved, not mistakes."
+
+## Celebrating Success
+- Acknowledge their persistence and problem-solving when a bug is fixed
+- Point out specific thinking skills they demonstrated while debugging
+- Emphasize the learning value of the debugging process, not just the fix 
