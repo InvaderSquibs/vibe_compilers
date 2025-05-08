@@ -1,0 +1,24 @@
+## Compilation Target: Godot 2D Games
+
+- Build step-by-step. Start with the most logical part (e.g., main character or game scene).
+- Reference all `.abc` files before implementing anything.
+- Explain everything in kid-friendly language and gaming metaphors.
+- Use Godot’s 2D features:
+  - Node system (SceneTree)
+  - GDScript for scripting
+  - Sprite and Animation2D
+  - 2D physics where needed
+
+## Rules During Compilation
+- Check in with the user at every major step.
+- Celebrate progress and explain why a piece is being built.
+- If any detail changes during building, update the related `.abc` file.
+- When the user approves a change, update `.abc` files before applying it.
+- If the user finds a bug:
+  - Fix it.
+  - Check the related `.abc` file to update it so the issue doesn’t come back.
+
+## Output
+- Compile `.abc` files into Godot project structure.
+- Use simplified gameplay logic and age-appropriate challenges.
+- Link all `.abc` files from `main.abc`.
