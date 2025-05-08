@@ -1,0 +1,36 @@
+# 05 – Test-Driven Development Plan ✅
+
+Here’s where we make sure every change you make has a spotlight on it. We’re not just moving fast—we’re moving smart.
+
+---
+
+## 🧪 Step 1: Existing Tests (If Any)
+
+- Do you have tests in place currently?
+  - What kinds? (unit, integration, e2e, smoke, etc.)
+- Are they reliable, flaky, or missing?
+- Is there a testing framework already in use? (e.g. PHPUnit, Jest, Mocha, Pytest, etc.)
+
+---
+
+## 🧭 Step 2: Refactor-Aware Coverage Plan
+
+- What areas must remain untouched/undamaged during the migration?
+- Which parts of the system are the most fragile?
+- Any *must-cover* scenarios before code moves?
+- Will we use snapshot testing, mocks, fixtures?
+
+---
+
+## 📦 Step 3: Tooling & Frameworks
+
+- Do you plan to adopt a new testing framework or stick with the existing one?
+- How will you run tests: CLI, CI/CD integration, GUI runners?
+- Any linting or static analysis tools in play?
+
+---
+
+📝 Test planning will be saved to:  
+`/migraine/05_tdd_plan.mig`
+
+When you’re satisfied with the safety net, it’s go-time: the real refactor work begins next.

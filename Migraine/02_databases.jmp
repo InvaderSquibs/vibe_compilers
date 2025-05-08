@@ -1,0 +1,36 @@
+# 02 – Database & Schema Migration 🗃️
+
+We’re getting into the guts now. Whether you’re escaping a tangled relational net or switching storage philosophies, this is where we name the data beasts.
+
+---
+
+## 🗂️ Step 1: What are we migrating from?
+
+- What kind of database is currently in use? (e.g. MySQL, Postgres, MongoDB, flat files?)
+- How tightly coupled is the data layer to the application?
+- Any ORM or query builder tools in play?
+- Do you have a current schema or migration history available?
+
+---
+
+## 📐 Step 2: Where are we going?
+
+- What's your preferred destination stack? (e.g. Supabase, PlanetScale, Firebase, raw SQL)
+- Are there schema changes coming? (e.g. normalization, denormalization, table rethinking?)
+- Any indexing, partitioning, or sharding considerations?
+- Will you need data migration tools or write custom scripts?
+
+---
+
+## 🧩 Step 3: Integration Points
+
+- Does the app rely on DB-stored sessions, tokens, or jobs?
+- Any system dependencies on legacy tables?
+- Any external tools (reporting, dashboards) querying this DB?
+
+---
+
+📄 Your responses will be recorded in:  
+`/migraine/02_databases.mig`
+
+Once we're clear here, we’ll take on authentication—the bouncer at the gates of your new system.

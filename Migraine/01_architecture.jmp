@@ -1,0 +1,41 @@
+# 01 – Architecture Redesign 🏗️
+
+Time to zoom out. Before we touch a line of code, let’s figure out the skeleton this system will live on.
+
+---
+
+## 🧠 Step 1: What's the future vision?
+
+Help me understand the *intent* behind this migration:
+
+- What are your goals? (e.g. scalability, maintainability, performance, cost reduction)
+- Are you aiming for a monolith, microservices, serverless, or something else?
+- Any opinions on framework or stack preferences? (e.g. Next.js, Laravel, Spring Boot, Go with HTMX?)
+- Do you have existing services that this system will need to talk to?
+
+---
+
+## 🧱 Step 2: Boundary Drawing
+
+Let’s sketch out your major domains or services.
+
+- What are the core features or domains in the current system?
+- Which ones stay together? Which get split?
+- Are there obvious seams or pain points in the current layout?
+
+---
+
+## 🧾 Step 3: Non-Negotiables
+
+List anything you **must** preserve or enforce:
+
+- Compliance needs?
+- Regulatory or security constraints?
+- Legacy contracts or APIs that can’t change yet?
+
+---
+
+🗂️ Your responses will be saved to:  
+`/migraine/01_architecture.mig`
+
+Once you’re done, I’ll help connect this to later decisions like test coverage, DB schema, and auth flow.

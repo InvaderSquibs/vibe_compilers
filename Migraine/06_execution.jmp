@@ -1,0 +1,43 @@
+# 06 – Refactor Execution 🛠️
+
+Alright. You've planned, prepped, and protected your edges. It’s time to refactor.
+
+---
+
+## ⚙️ Step 1: Generate Temporary Files
+
+I’ll help you:
+- Scaffold new files or services based on your previous answers
+- Generate placeholder code for each structural change
+- Set up test files or update specs from the TDD plan
+
+Let me know:
+- Would you like to create these files now, or manually later?
+- Should we create these in a `sandbox/` folder or replace in-place with backups?
+
+---
+
+## 🧮 Step 2: Execution Order
+
+We’ll organize your refactor in logical steps:
+1. Schema + data migration
+2. Auth + access control rewiring
+3. File and service reorg
+4. Route reconstruction
+5. Final integration glue
+
+Anything you want to skip, defer, or emphasize?
+
+---
+
+## 📝 Step 3: Manual Tasks or Warnings
+
+- Are there parts of the app that need hand-refactoring?
+- Any integration points or risky code that shouldn’t be touched yet?
+
+---
+
+📁 Refactor instructions and generated artifacts will be saved to:  
+`/migraine/06_execution.mig`
+
+When you're ready, we’ll switch to validation mode—did everything survive the storm?

@@ -1,0 +1,36 @@
+# 04 – File & Service Structure 🗃️
+
+Now that we’ve got the data and the doors figured out, let’s shape the skeleton. Where everything lives matters.
+
+---
+
+## 🧱 Step 1: Current State
+
+- How is the current codebase structured? (Monolith? Spaghetti?)
+- Are routes, views, and logic separated or tightly coupled?
+- Any conventions already in place (MVC, feature folders, domain-driven)?
+
+---
+
+## 🛠️ Step 2: Structural Intent
+
+- Are you planning to change the project structure significantly?
+- Will there be multiple services or packages/modules?
+- Any preferred folder layout or naming conventions?
+
+---
+
+## 🌍 Step 3: Routes & Service Boundaries
+
+- How are routes currently defined?
+- Will routing change in the new system (framework-driven, REST, RPC, GraphQL)?
+- Are there any route-based permissions or middleware dependencies?
+
+---
+
+📁 Structure decisions will be saved to:  
+`/migraine/04_file_structure.mig`
+
+This will feed into your test layout, service wiring, and general sanity as the project scales.
+
+Ready to sketch your testing strategy next?

@@ -1,0 +1,36 @@
+# 03 – Authentication & Authorization 🔐
+
+Time to define who gets in, who gets what, and how we keep it all secure.
+
+---
+
+## 🧓 Step 1: Legacy Auth Overview
+
+- How is authentication currently handled? (e.g. sessions, tokens, OAuth, custom login?)
+- Where are user credentials stored?
+- Are there roles, permissions, or access control levels built in?
+- Any identity provider integrations (LDAP, SSO, Auth0, Firebase, etc.)?
+
+---
+
+## 🚀 Step 2: Target Model
+
+- Are you keeping the current approach or planning a new one?
+- Planning to move to JWTs, OAuth2, biometric auth, or passwordless?
+- Will auth be handled in-app or by an external service?
+- Are there new permission models you want to add (e.g. scopes, claims, RBAC/ABAC)?
+
+---
+
+## 🛡️ Step 3: Security & Compatibility
+
+- Any password reset, MFA, or account recovery flows that need rework?
+- Are you migrating existing users? If so, can you preserve password hashes?
+- Will legacy tokens or sessions still need to work during transition?
+
+---
+
+📄 Your insights will be written to:  
+`/migraine/03_authentication.mig`
+
+From here, we’ll get structural—next up is file layout, routes, and how you organize the bones of your beast.

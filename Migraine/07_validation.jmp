@@ -1,0 +1,34 @@
+# 07 – Verification & Review 🔍
+
+The work is done—but now we hold it up to the light. Let’s make sure your refactor landed safely and soundly.
+
+---
+
+## ✅ Step 1: Testing Checkpoint
+
+- Run your full test suite. What’s green? What’s red?
+- Any unexpected regressions or test skips?
+- Are there new tests we forgot to write but now realize we need?
+
+---
+
+## 🧩 Step 2: Diff Review
+
+- Want to walk through a diff of the refactored files?
+- Any changes that feel risky or confusing in hindsight?
+- Do we need to generate a changelog or handoff notes?
+
+---
+
+## 🔗 Step 3: Integration Sanity
+
+- Are internal APIs, routes, or modules still communicating cleanly?
+- Are downstream systems, consumers, or environments syncing as expected?
+- Any auth or session weirdness post-migration?
+
+---
+
+📄 Verification notes and action items will be written to:  
+`/migraine/07_verification.mig`
+
+When you’re confident in what you see, we’ll do one last pass: legacy cleanup and graceful exits.

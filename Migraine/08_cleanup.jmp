@@ -1,0 +1,42 @@
+# 08 – Cleanup & Legacy Removal 🧹
+
+You did it. The new system’s in place. Now we clean up the leftovers and seal the migration with confidence.
+
+---
+
+## 🗑️ Step 1: What can we safely remove?
+
+- Legacy files or folders marked for deletion?
+- Old `.env`, `.htaccess`, or unused routes?
+- Deprecated DB tables or backup scripts?
+
+Would you like to:
+- Archive them in `/legacy/`?
+- Zip them into a backup?
+- Delete immediately (gulp)?
+
+---
+
+## 🧯 Step 2: Rollback Plan (Optional but wise)
+
+- Do you want a rollback script or diff report saved?
+- Should we document reversion steps just in case?
+
+---
+
+## 🧾 Step 3: Final Notes & Handoff
+
+- Anything your future self or a teammate should know?
+- Want to generate a summary `.md` or final `.mig` roll-up?
+- Any follow-up items to track (e.g. performance testing, monitoring)?
+
+---
+
+📁 Cleanup decisions and rollback plans will be stored in:  
+`/migraine/08_cleanup.mig`
+
+MIGRAINE stands down. The pain is processed. The system is reborn.
+
+---
+
+Need to loop back to any step, or want me to generate a final report?

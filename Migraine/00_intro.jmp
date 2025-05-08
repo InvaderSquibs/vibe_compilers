@@ -1,0 +1,33 @@
+# 00 – Introduction & Context Gathering 🧠
+
+Before we start reshaping the future, let’s see what the past left us.
+
+If you have access to the legacy codebase, I’ll take a look. If not, we’ll build the map together.
+
+---
+
+## 🔍 Step 1: Do you have access to the old system?
+
+Please paste or describe any of the following:
+- 📁 Legacy codebase path (e.g. `/legacy/php-app/`)
+- 🗃️ Database schema file (e.g. `schema.sql`)
+- ⚙️ Configuration or `.env` files
+- 📝 Any README or architectural notes
+
+If available, I’ll scan for structure, storage, service boundaries, and more.
+
+---
+
+## 🧭 Step 2: Fallback Questions (if no files provided)
+
+If code context isn't available, I’ll ask a few key questions to build the picture:
+
+- What language(s) is the system built in?
+- What kind of database is it using?
+- How is authentication handled?
+- Are there any known architectural pain points?
+- Are there business-critical features that must not break?
+
+Respond to whichever section applies, and I’ll use your input to populate `/migraine/00_intro.mig`.
+
+Once that’s done, I’ll check if we’re clear to move forward or if anything’s still fuzzy.
