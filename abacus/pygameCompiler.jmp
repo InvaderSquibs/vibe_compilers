@@ -11,3 +11,24 @@ This compiler is best for projects that involve:
 ## Compilation Process
 Once you have a complete `main.abc` file, use the information to generate a Python game project structured as follows:
 
+(game_name)/
+├── main.py
+├── assets/
+│ ├── images/
+│ └── sounds/
+├── config.py
+└── README.md
+
+
+### Step-by-step:
+1. Create `main.py` with the main game loop, window setup, and game logic.
+2. Use `config.py` to store constants like screen size, frame rate, and colors.
+3. Include placeholder assets and instructions for replacing them in `README.md`.
+4. Keep code commented for readability—especially for young or new programmers.
+
+### Additional Guidelines
+- Prefer functions and small classes to keep logic clean.
+- Use inline comments to explain concepts like collision detection or sprite animation.
+- If user specifies controller input, include example code using `pygame.joystick`.
+
+Let’s turn their ideas into something they can play—and share!
