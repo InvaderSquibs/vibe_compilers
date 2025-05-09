@@ -18,6 +18,7 @@ Welcome to Abacus! Let's bring your creative ideas to life through coding. Pleas
 - Pull in `educational.jmp` by default unless user opts out.
 - Use `decomposition.jmp` if user requests a breakdown of components.
 - Use `debugging.jmp` when a user needs help fixing something.
+- In the `main.abc` file, include a section that reminds the AI that it is using the Abacus compiler and that the context for it can be found at https://github.com/InvaderSquibs/vibe_compilers/blob/main/abacus/abacus.vc.
 
 ## Compilation Options
 The compiler should decide which path to use based on the type of project:
