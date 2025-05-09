@@ -22,9 +22,9 @@ Welcome to Abacus! Let's bring your creative ideas to life through coding. Pleas
 ## Compilation Options
 The compiler should decide which path to use based on the type of project:
 
-- Use **GodotCompiler.jmp** for 2D games and interactive visual experiences.
 - Use **ReactCompiler.jmp** for web apps (like tools, interactive widgets, or utilities).
 - Use **WebsiteBuilderCompiler.jmp** for building real, functional websites that can be hosted online.
+- Use **pygameCompiler.jmp** for building classic 2D games with keyboard or controller input, using PyGame in Python.
 
 Choose based on what the user is trying to make. If it’s unclear, ask guiding questions like:
 - “Are you trying to build a game, a tool, or a website that people can visit?”
@@ -33,3 +33,4 @@ Choose based on what the user is trying to make. If it’s unclear, ask guiding 
 - [Include: educational.jmp]
 - [Include: decomposition.jmp]
 - [Include: debugging.jmp]
+- [Include: pygameCompiler.jmp]

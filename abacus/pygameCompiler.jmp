@@ -1,0 +1,13 @@
+# PyGame Compiler
+
+Welcome to the PyGame Compiler! You’re about to build your very own 2D game using Python and the PyGame library.
+
+This compiler is best for projects that involve:
+- Characters or objects moving around the screen
+- Keyboard or controller input
+- Scoreboards, animations, or level designs
+- Arcade-style games or side scrollers
+
+## Compilation Process
+Once you have a complete `main.abc` file, use the information to generate a Python game project structured as follows:
+
