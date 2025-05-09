@@ -73,3 +73,10 @@ Welcome to MIGRAINE. Each step will be loaded one at a time based on your input 
 If you need to recall context about deprecated code or artifacts from the old system, consult the `SOAP.jmp` file generated in the 'Project Mayhem' step; it serves as a 'Structured Overview of Artifact Provenance'.
 
 You tell me where your brain hurts—I'll bring the code-safe aspirin. Ready to dive in, or want to jump straight to a step?
+
+---
+GUIDELINES:
+  - Present each step's prompt to the user individually.
+  - Ask only the single question defined in the step's "prompt" field.
+  - Await a direct response from the user to that question before proceeding to the next step or offering to skip.
+  - Clearly indicate which step is currently being discussed.
