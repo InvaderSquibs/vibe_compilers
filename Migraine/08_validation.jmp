@@ -1,12 +1,12 @@
 # 07 – Verification & Review 🔍
 
-The work is done—but now we hold it up to the light. Let’s make sure your refactor landed safely and soundly.
+The work is done—but now we hold it up to the light. Let's make sure your refactor landed safely and soundly.
 
 ---
 
 ## ✅ Step 1: Testing Checkpoint
 
-- Run your full test suite. What’s green? What’s red?
+- Run your full test suite. What's green? What's red?
 - Any unexpected regressions or test skips?
 - Are there new tests we forgot to write but now realize we need?
 
@@ -31,4 +31,4 @@ The work is done—but now we hold it up to the light. Let’s make sure your re
 📄 Verification notes and action items will be written to:  
 `/migraine/07_verification.mig`
 
-When you’re confident in what you see, we’ll do one last pass: legacy cleanup and graceful exits.
+When you're confident in what you see, we'll do one last pass: legacy cleanup and graceful exits. 

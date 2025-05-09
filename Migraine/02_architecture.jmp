@@ -1,6 +1,6 @@
 # 01 – Architecture Redesign 🏗️
 
-Time to zoom out. Before we touch a line of code, let’s figure out the skeleton this system will live on.
+Time to zoom out. Before we touch a line of code, let's figure out the skeleton this system will live on.
 
 ---
 
@@ -17,7 +17,7 @@ Help me understand the *intent* behind this migration:
 
 ## 🧱 Step 2: Boundary Drawing
 
-Let’s sketch out your major domains or services.
+Let's sketch out your major domains or services.
 
 - What are the core features or domains in the current system?
 - Which ones stay together? Which get split?
@@ -31,11 +31,11 @@ List anything you **must** preserve or enforce:
 
 - Compliance needs?
 - Regulatory or security constraints?
-- Legacy contracts or APIs that can’t change yet?
+- Legacy contracts or APIs that can't change yet?
 
 ---
 
 🗂️ Your responses will be saved to:  
 `/migraine/01_architecture.mig`
 
-Once you’re done, I’ll help connect this to later decisions like test coverage, DB schema, and auth flow.
+Once you're done, I'll help connect this to later decisions like test coverage, DB schema, and auth flow. 

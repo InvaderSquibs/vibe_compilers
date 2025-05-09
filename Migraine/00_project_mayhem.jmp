@@ -1,0 +1,49 @@
+# 00a_project_mayhem.jmp – Project Mayhem: File Intake & Indexing
+
+## 🧳 Context Intake
+
+Welcome to **Project Mayhem**—where we gather all the wild artifacts that might guide (or haunt) this migration.
+
+**Prompt**:
+Do you have any supporting materials for this project? These could include:
+
+- Figma designs
+- Architecture diagrams
+- API specs
+- Markdown docs
+- Screenshots
+- Notes or legacy code
+
+If so, hand them to me or place them in `/migraine/project_mayhem/`.
+
+---
+
+## 🧩 Indexing Artifacts
+
+Once files are uploaded, we'll walk through identifying each one, for each file ask them the needed details. and determine which steps they would be helpful in to reference.
+
+**Prompt Examples**(try to match the tones but make up your own prompt to get a description):
+> Tell me more about this file: <file>
+> Could you describe this file for me: <file>
+
+We'll generate a table for easy reference throughout the refactor process.
+
+---
+
+## 🗃️ Output
+
+We'll create a `SOAP.jmp` file with the following content:
+
+**Title:**  Structured Overview of Artifact Provenance.
+
+**Description:** This file's role is to pull in relevant context of the old system where needed in the conversation.
+
+We will then generate a table summarizing the artifacts:
+
+| File Name | Description | Relevant Step(s) |
+|-----------|-------------|------------------|
+|           |             |                  |
+
+The AI will then generate the relevant steps below this description and table.
+
+All original files remain in `/migraine/project_mayhem/` for future lookup. 

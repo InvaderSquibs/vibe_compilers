@@ -1,6 +1,6 @@
 # 02 – Database & Schema Migration 🗃️
 
-We’re getting into the guts now. Whether you’re escaping a tangled relational net or switching storage philosophies, this is where we name the data beasts.
+We're getting into the guts now. Whether you're escaping a tangled relational net or switching storage philosophies, this is where we name the data beasts.
 
 ---
 
@@ -33,4 +33,4 @@ We’re getting into the guts now. Whether you’re escaping a tangled relationa
 📄 Your responses will be recorded in:  
 `/migraine/02_databases.mig`
 
-Once we're clear here, we’ll take on authentication—the bouncer at the gates of your new system.
+Once we're clear here, we'll take on authentication—the bouncer at the gates of your new system. 

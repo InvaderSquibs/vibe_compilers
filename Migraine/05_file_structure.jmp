@@ -1,6 +1,6 @@
 # 04 – File & Service Structure 🗃️
 
-Now that we’ve got the data and the doors figured out, let’s shape the skeleton. Where everything lives matters.
+Now that we've got the data and the doors figured out, let's shape the skeleton. Where everything lives matters.
 
 ---
 
@@ -33,4 +33,4 @@ Now that we’ve got the data and the doors figured out, let’s shape the skele
 
 This will feed into your test layout, service wiring, and general sanity as the project scales.
 
-Ready to sketch your testing strategy next?
+Ready to sketch your testing strategy next? 

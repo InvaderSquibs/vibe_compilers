@@ -1,6 +1,6 @@
 # 05 – Test-Driven Development Plan ✅
 
-Here’s where we make sure every change you make has a spotlight on it. We’re not just moving fast—we’re moving smart.
+Here's where we make sure every change you make has a spotlight on it. We're not just moving fast—we're moving smart.
 
 ---
 
@@ -33,4 +33,4 @@ Here’s where we make sure every change you make has a spotlight on it. We’re
 📝 Test planning will be saved to:  
 `/migraine/05_tdd_plan.mig`
 
-When you’re satisfied with the safety net, it’s go-time: the real refactor work begins next.
+When you're satisfied with the safety net, it's go-time: the real refactor work begins next. 
