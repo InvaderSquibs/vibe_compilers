@@ -67,10 +67,28 @@ steps: [
 ]
 ---
 
+## File Structure Overview
+
+The following table outlines the intended folder structure and the purpose of key files generated or used by MIGRAINE:
+
+| Path                               | Description                                                                 |
+|------------------------------------|-----------------------------------------------------------------------------|
+| `/migraine/README.md`              | Overview of the migration journey                                           |
+| `/migraine/stdout_thoughts.mig`    | Stream-of-consciousness logs, thinking-aloud moments                      |
+| `/migraine/project_mayhem/`        | User-provided legacy artifacts                                              |
+| `/migraine/project_mayhem/SOAP.mig`| Indexed table of uploaded files (Structured Overview of Artifact Provenance) |
+| `/migraine/project_mayhem/<context_intake>.jmp` | Guides user to upload and describe legacy context files        |
+| `/migraine/the_burrow/`            | MIGRAINE-generated structured outputs                                       |
+| `/migraine/the_burrow/architecture/atlas.mig`    | Mermaid diagram of system design                                           |
+| `/migraine/the_burrow/architecture/decisions.mig`| Notes on tradeoffs and architectural reasoning                             |
+| `/migraine/the_burrow/authentication/auth_flows.mig`| Permissions and login transitions                                       |
+| `/migraine/the_burrow/tdd_plan/coverage_matrix.mig`| Planned test coverage and strategy                                       |
+| `/migraine/the_burrow/misc/other_outputs.mig`   | Catch-all for outputs that don't fit above                               |
+
 # MIGRAINE 🧠💥
 
-Welcome to MIGRAINE. Each step will be loaded one at a time based on your input or skipped if not relevant. All context files will be generated as `.mig` files and stored in `/migraine/`.
-If you need to recall context about deprecated code or artifacts from the old system, consult the `SOAP.jmp` file generated in the 'Project Mayhem' step; it serves as a 'Structured Overview of Artifact Provenance'.
+Welcome to MIGRAINE. Each step will be loaded one at a time based on your input or skipped if not relevant. All context files will be generated as `.mig` files and stored according to the file structure detailed above.
+If you need to recall context about deprecated code or artifacts from the old system, consult the `project_mayhem/SOAP.mig` file generated in the 'Project Mayhem' step; it serves as a 'Structured Overview of Artifact Provenance'.
 
 You tell me where your brain hurts—I'll bring the code-safe aspirin. Ready to dive in, or want to jump straight to a step?
 

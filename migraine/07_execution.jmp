@@ -38,6 +38,6 @@ Anything you want to skip, defer, or emphasize?
 ---
 
 📁 Refactor instructions and generated artifacts will be saved to:  
-`/migraine/06_execution.mig`
+`the_burrow/misc/other_outputs.mig`
 
 When you're ready, we'll switch to validation mode—did everything survive the storm? 

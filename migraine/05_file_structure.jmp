@@ -29,7 +29,7 @@ Now that we've got the data and the doors figured out, let's shape the skeleton.
 ---
 
 📁 Structure decisions will be saved to:  
-`/migraine/04_file_structure.mig`
+`the_burrow/misc/other_outputs.mig`
 
 This will feed into your test layout, service wiring, and general sanity as the project scales.
 

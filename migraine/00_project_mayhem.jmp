@@ -32,7 +32,7 @@ We'll generate a table for easy reference throughout the refactor process.
 
 ## 🗃️ Output
 
-We'll create a `SOAP.jmp` file with the following content:
+We'll create a `project_mayhem/SOAP.mig` file with the following content:
 
 **Title:**  Structured Overview of Artifact Provenance.
 

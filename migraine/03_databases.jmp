@@ -31,6 +31,6 @@ We're getting into the guts now. Whether you're escaping a tangled relational ne
 ---
 
 📄 Your responses will be recorded in:  
-`/migraine/02_databases.mig`
+`the_burrow/misc/other_outputs.mig`
 
 Once we're clear here, we'll take on authentication—the bouncer at the gates of your new system. 

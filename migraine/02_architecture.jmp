@@ -36,6 +36,6 @@ List anything you **must** preserve or enforce:
 ---
 
 🗂️ Your responses will be saved to:  
-`/migraine/01_architecture.mig`
+`the_burrow/architecture/` (as `atlas.mig` and `decisions.mig`)
 
 Once you're done, I'll help connect this to later decisions like test coverage, DB schema, and auth flow. 

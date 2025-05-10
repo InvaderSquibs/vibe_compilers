@@ -29,6 +29,6 @@ The work is done—but now we hold it up to the light. Let's make sure your refa
 ---
 
 📄 Verification notes and action items will be written to:  
-`/migraine/07_verification.mig`
+`the_burrow/misc/other_outputs.mig`
 
 When you're confident in what you see, we'll do one last pass: legacy cleanup and graceful exits. 

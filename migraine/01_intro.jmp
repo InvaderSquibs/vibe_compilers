@@ -28,6 +28,6 @@ If code context isn't available, I'll ask a few key questions to build the pictu
 - Are there any known architectural pain points?
 - Are there business-critical features that must not break?
 
-Respond to whichever section applies, and I'll use your input to populate `/migraine/00_intro.mig`.
+Respond to whichever section applies, and I'll use your input to populate `stdout_thoughts.mig`.
 
 Once that's done, I'll check if we're clear to move forward or if anything's still fuzzy. 
