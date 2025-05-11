@@ -1,0 +1,38 @@
+# 08 – Refactor Execution 🛠️
+
+Alright. We have our plan in `the_burrow/execution_plan.mig`. Let's get to work.
+
+---
+
+## 📖 Step 1: Review Current Plan
+
+I will display the current `the_burrow/execution_plan.mig`.
+(AI displays content of `the_burrow/execution_plan.mig`)
+
+Which task or section are we focusing on now?
+
+---
+
+## ⚙️ Step 2: Execute Task & Update Plan
+
+As you work through tasks:
+- I can help scaffold files or generate placeholder code if needed for the current task.
+- Let me know when a task is completed, or if there are notes/blockers.
+
+I will then help you update `the_burrow/execution_plan.mig` to reflect the progress (e.g., checking off items `[x]`, adding comments).
+
+**Prompt Examples:**
+> "Okay, I've completed 'Define new schema for `users` table'. Let's mark it done."
+> "I'm working on 'Implement JWT generation'. I'll let you know when it's testable."
+> "Ran into an issue with 'Migrate user authentication data'. Adding a note: Needs further investigation on password hashing compatibility."
+
+---
+
+## 💾 Step 3: Output - Updated Execution Plan
+
+All changes and progress will be saved back to:
+`the_burrow/execution_plan.mig`
+
+Any other distinct generated artifacts or detailed logs from this execution step can be directed to `the_burrow/misc/other_outputs.mig` if needed (e.g., temporary files, extensive logs).
+
+When you're ready, we'll switch to validation mode—did everything survive the storm? 

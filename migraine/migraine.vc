@@ -47,20 +47,26 @@ steps: [
     "prompt": "Do you want to create or adapt tests to guide the refactor?"
   },
   {
+    "step_name": "Execution Planning",
+    "file": "07_execution_planning.jmp",
+    "description": "Creates a detailed markdown TODO list for the refactor execution phase.",
+    "prompt": "Shall we create a detailed execution plan as a TODO list?"
+  },
+  {
     "step_name": "Refactor Execution",
-    "file": "07_execution.jmp",
-    "description": "Use inputs from previous steps to generate temporary files and execute changes.",
+    "file": "08_execution.jmp",
+    "description": "Executes the refactor tasks based on the execution_plan.mig, updating it with progress.",
     "prompt": "Are you ready to begin executing the actual refactor work?"
   },
   {
     "step_name": "Verification & Review",
-    "file": "08_validation.jmp",
+    "file": "09_validation.jmp",
     "description": "Double-check refactor success, confirm file diffs, and pass all tests.",
     "prompt": "Would you like to verify the success of the migration and run checks?"
   },
   {
     "step_name": "Cleanup & Legacy Removal",
-    "file": "09_cleanup.jmp",
+    "file": "10_cleanup.jmp",
     "description": "Safely archive or delete deprecated code, DBs, and configs.",
     "prompt": "Is it time to clean up the legacy codebase or create a rollback plan?"
   }
@@ -83,6 +89,7 @@ The following table outlines the intended folder structure and the purpose of ke
 | `/migraine/the_burrow/architecture/decisions.mig`| Notes on tradeoffs and architectural reasoning                             |
 | `/migraine/the_burrow/authentication/auth_flows.mig`| Permissions and login transitions                                       |
 | `/migraine/the_burrow/tdd_plan/coverage_matrix.mig`| Planned test coverage and strategy                                       |
+| `/migraine/the_burrow/execution_plan.mig` | Markdown TODO list for the refactor execution             |
 | `/migraine/the_burrow/misc/other_outputs.mig`   | Catch-all for outputs that don't fit above                               |
 
 # MIGRAINE 🧠💥
