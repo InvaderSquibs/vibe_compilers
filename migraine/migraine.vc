@@ -94,10 +94,21 @@ The following table outlines the intended folder structure and the purpose of ke
 
 # MIGRAINE 🧠💥
 
-Welcome to MIGRAINE. Each step will be loaded one at a time based on your input or skipped if not relevant. All context files will be generated as `.mig` files and stored according to the file structure detailed above.
+Welcome to MIGRAINE.
+
+**(AI LOGIC STARTS HERE)**
+**(The AI interpreting this file should first check if `the_burrow/execution_plan.mig` exists.)**
+**(IF `the_burrow/execution_plan.mig` EXISTS, the AI should ask the user:)**
+> "It looks like there's an existing execution plan (`the_burrow/execution_plan.mig`). 
+> Would you like to jump to the 'Refactor Execution' step (Step 8) to continue with it, 
+> or would you prefer to start from the beginning or a different step?"
+
+**(IF THE PLAN DOES NOT EXIST, OR THE USER CHOOSES NOT TO JUMP TO STEP 8, proceed as normal):**
+
+Each step will be loaded one at a time based on your input or skipped if not relevant. All context files will be generated as `.mig` files and stored according to the file structure detailed above.
 If you need to recall context about deprecated code or artifacts from the old system, consult the `project_mayhem/SOAP.mig` file generated in the 'Project Mayhem' step; it serves as a 'Structured Overview of Artifact Provenance'.
 
-You tell me where your brain hurts—I'll bring the code-safe aspirin. Ready to dive in, or want to jump straight to a step?
+You tell me where your brain hurts—I'll bring the code-safe aspirin. Ready to dive in, or want to jump straight to a specific step?
 
 ---
 GUIDELINES:
