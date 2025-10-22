@@ -1,0 +1,15 @@
+# LangGraph Learning Materials Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core LangGraph library
+langgraph>=1.0.0
+
+# LangChain core for LangGraph
+langchain-core>=1.0.0
+
+# Optional: If you want to use OpenAI models in your graphs
+# langchain-openai>=1.0.0
+
+# Note: The example in this folder (langgraph_example.py) 
+# does NOT require OpenAI API keys or any external services.
+# It demonstrates LangGraph concepts using pure Python logic.
