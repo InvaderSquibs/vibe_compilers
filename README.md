@@ -12,3 +12,14 @@ In addition to `.vc` files, the system supports `.jmp` files ("just more prompt"
 These compilers are not standalone code generators; instead, they act as prompt blueprints that influence how new code is created in a separate, user-specified file or project. By leveraging Vibe Compilers and prompt extensions, users can ensure consistency, maintain standards, and foster creativity within defined boundaries, all while benefiting from the flexibility of AI-assisted development.
 
 Vibe Compilers are modular and can be combined or extended to suit different coding scenarios. They are meant to be easily pulled into context as needed, making them a powerful tool for anyone looking to customize their AI-driven coding experience.
+
+## Available Vibe Compilers
+
+- **Abacus** (`abacus/`) - Educational compiler for beginners and children, helping bridge problem-solving and coding
+- **Yaska** (`yaska/`) - Builds emotionally intelligent coding personas that feel like supportive friends
+- **Buddy** (`buddy/`) - Tools for creating custom coding buddy personas
+- **MIGRAINE** (`migraine/`) - Migration and refactoring assistant for experienced developers tackling high-stakes projects
+
+## Getting Started
+
+For detailed information about the directory structure, setup process, and usage instructions, please see [SETUP.md](SETUP.md).
